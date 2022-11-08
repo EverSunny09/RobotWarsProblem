@@ -19,7 +19,7 @@ public class Program {
         try
         {
             position.StartMoving(maxPoints, moves);
-            Console.WriteLine($"{position.X} {position.Y} {position.Direction.ToString()}");
+            Console.WriteLine($"{position.X} {position.Y} {position.Direction}");
         }
         catch (Exception ex)
         {
