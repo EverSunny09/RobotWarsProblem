@@ -85,13 +85,13 @@ namespace RobotWarsProblem.Services.Repositories
             {
                 switch (move)
                 {
-                    case (char)Moves.M:
+                    case 'M':
                         this.MoveInSameDirection();
                         break;
-                    case (char)Moves.L:
+                    case 'L':
                         this.Rotate90Left();
                         break;
-                    case (char)Moves.R:
+                    case 'R':
                         this.Rotate90Right();
                         break;
                     default:
